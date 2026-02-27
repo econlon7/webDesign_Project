@@ -1,0 +1,69 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    height: 50px;
+}
+h1, h2
+{
+    color: white; 
+}
+body
+{
+    color: white; 
+    font-family: verdana;
+    text-align: justify;
+}
+.logo
+{
+    float:left;
+}
+#active
+{
+    background-color: #127a24;
+
+}
+nav
+{
+    background-color: #888888;
+    padding: 5px;
+
+}
+nav ul 
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #f53b3b;
+    border-radius: 25px;
+}
+nav ul li a 
+{
+    color: white; 
+    text-decoration: none;
+}
+footer 
+{
+background-color: #888888;
+/* to fix footer to bottom of webpage */
+position: fixed;
+bottom: 0px;
+left: 0px;
+right: 0px;
+margin-bottom: 0px;    
+}
+footer p
+{
+    text-align: center;
+    color: white;
+}
+
