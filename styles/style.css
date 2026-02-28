@@ -1,33 +1,20 @@
-body
-{
-    background-color: black;
-}
 header
 {
     height: 50px;
 }
-h1, h2
-{
-    color: white; 
-}
 body
 {
-    color: white; 
     font-family: verdana;
     text-align: justify;
 }
-.logo
-{
-    float:left;
-}
 #active
 {
-    background-color: #127a24;
+    background-color: #f2d8fc;
 
 }
 nav
 {
-    background-color: #888888;
+    background-color: #87cbeb;
     padding: 5px;
 
 }
@@ -39,11 +26,11 @@ nav ul
 nav ul li
 {
     list-style-type: none;
-    background-color: #B2B2B2;
+    background-color: #bf95e3;
     display: inline;
     padding: 15px;
     margin: 5px;
-    border: 2px solid #f53b3b;
+    border: 2px solid #000000;
     border-radius: 25px;
 }
 nav ul li a 
@@ -53,9 +40,9 @@ nav ul li a
 }
 footer 
 {
-background-color: #888888;
+background-color: #c54a96;
 /* to fix footer to bottom of webpage */
-position: fixed;
+position: static;
 bottom: 0px;
 left: 0px;
 right: 0px;
