@@ -53,4 +53,13 @@ footer p
     text-align: center;
     color: white;
 }
+details > summary
+{
+   
+}
+details
+{
+    background: #f1f1f1;
+
+}
 
