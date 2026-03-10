@@ -5,16 +5,16 @@ header
 body
 {
     font-family: verdana;
-    text-align: justify;
+    background-color: #BCD3F2;
 }
 #active
 {
-    background-color: #f2d8fc;
+    background-color: #5D6798;
 
 }
 nav
 {
-    background-color: #87cbeb;
+    background-color: #CB8589;
     padding: 5px;
 
 }
@@ -26,7 +26,7 @@ nav ul
 nav ul li
 {
     list-style-type: none;
-    background-color: #bf95e3;
+    background-color: #BAAFD4;
     display: inline;
     padding: 15px;
     margin: 5px;
@@ -40,23 +40,48 @@ nav ul li a
 }
 footer 
 {
-background-color: #c54a96;
+background-color: #CB8589;
 /* to fix footer to bottom of webpage */
 position: static;
 bottom: 0px;
 left: 0px;
 right: 0px;
-margin-bottom: 0px;    
+margin-bottom: 0px;   
+padding: 10px; 
 }
 footer p
 {
     text-align: center;
     color: white;
 }
-
-details
-{
-    background: #f1f1f1;
-
+details > summary {
+  padding: 2px;
+  width: 300px;
+  background-color: #5D6798;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
 }
-
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  width: auto;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+summary {
+  display: block;
+  /* margin: 5px; */
+}
+.County 
+{
+    margin-bottom: 5px;
+}
+.wide-details
+{
+    width: 100%;
+    max-width: 5000px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
