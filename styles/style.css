@@ -54,34 +54,36 @@ footer p
     text-align: center;
     color: white;
 }
-details > summary {
+details > summary 
+{
   padding: 2px;
-  width: 300px;
+  width: 100%;
+  max-width: 1200px;
   background-color: #5D6798;
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
   cursor: pointer;
+  text-align: center;
+  overflow: hidden;
 }
 details > p {
-  background-color: #eeeeee;
+  background-color: #b5bff2;
   padding: 4px;
   width: auto;
-  margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
 }
 summary {
   display: block;
-  /* margin: 5px; */
+  margin: 5px; 
 }
-.County 
+/* .County 
 {
     margin-bottom: 5px;
-}
-.wide-details
-{
-    width: 100%;
-    max-width: 5000px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
     overflow: hidden;
-}
+    width: 100%;            
+    max-width: 1200px;      
+    margin: 20px auto;      
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;      
+} */
