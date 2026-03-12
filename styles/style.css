@@ -43,7 +43,7 @@ footer
 background-color: #CB8589;
 /* to fix footer to bottom of webpage */
 position: static;
-bottom: 0px;
+margin-top: 10px;
 left: 0px;
 right: 0px;
 margin-bottom: 0px;   
@@ -65,25 +65,22 @@ details > summary
   cursor: pointer;
   text-align: center;
   overflow: hidden;
+  display: block;
+  margin-top: 10px;
+  margin-left: 5px; 
 }
 details > p {
   background-color: #b5bff2;
   padding: 4px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0;
+  margin-left: 5px; 
   width: auto;
   box-shadow: 1px 1px 2px #bbbbbb;
+  text-align: center;
 }
-summary {
-  display: block;
-  margin: 5px; 
-}
-/* .County 
+#Leinster 
 {
-    margin-bottom: 5px;
-    overflow: hidden;
-    width: 100%;            
-    max-width: 1200px;      
-    margin: 20px auto;      
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;      
-} */
+    text-align: justify;
+}
