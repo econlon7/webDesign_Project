@@ -59,9 +59,10 @@ details > summary
   padding: 2px;
   width: 100%;
   max-width: 1000px;
-  background-color: #5D6798;
+  background-color: #ffffff;
   border: none;
   cursor: pointer;
+  text-decoration: underline;
   text-align: center;
   overflow: hidden;
   display: block;
@@ -72,7 +73,7 @@ details > p {
   background-color: #b5bff2;
   padding: 4px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0;
   margin-left: 5px; 
   width: auto;
