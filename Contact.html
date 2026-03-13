@@ -7,6 +7,63 @@
     <meta name="keywords" content="">
     <title>Resources</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body
+        {
+            font-family: sans-serif;
+            background-image: url(images/black_brown_and_white_dog-558x600.jpg);
+            margin: 10px;
+            background-size: cover;
+        }
+        main
+        {
+            margin: 15px 200px;
+            padding: 20px;
+            border: solid black;
+            background: white;
+            min-height: 500px;
+        }
+        header
+        {
+            position: relative;
+            top: 10px;
+            font-style: italic;
+            text-align: center;
+        }
+        .required
+        {
+            font-weight: bold;
+            color: red;
+        }
+        label
+        {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input
+        {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            /* width: 220px; */
+        }
+        input[type="radio"]
+        {
+            width: 10px;
+        }
+        #button
+        {
+            margin-left: 138px;
+        }
+        #button, #reset
+        {
+            margin-top: .5em;
+            width: 8em;
+            background-color: orange;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body >
     <header>
@@ -24,6 +81,28 @@
     <main>
         <section>
             <h3> Please enter the following information: </h3>
+            <form action="https://year1.ccpdev.me/FormTest.php" method="post">
+
+                <label for="first_name" >First name:<spam class="required">*</spam></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+
+                <label for="last_name">Last name:  </label>
+                <input type="text" name="last_name" id="last_name"><br>
+
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="janedoe@example.com">
+                <br>
+
+                <label for="type">Contact type :</label>
+                <input type="radio" id="type" name="type" value="suggestion">Suggestion
+                <input type="radio" id="type" name="type" value="query">Query
+                <br>
+
+                <label for="message">Message : <span class="required">*</span></label>
+                <textarea cols="40" rows="6" id="message" name="message" required placeholder="your message must be lest than 200 characters" data-maxlength="200"></textarea><br>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
         </section>
     </main>
     <footer>   
