@@ -60,15 +60,21 @@
         {
             margin-top: .5em;
             width: 8em;
-            background-color: orange;
             border: 2px solid black;
+        }
+        #button:hover 
+        {
+            background-color: aquamarine;
+        }
+        #reset:hover
+        {
+            background-color: aquamarine;
         }
     </style>
 </head>
 <body >
     <header>
-        <img src="" alt="logo" width="100px" height="90px">
-        <h1></h1>
+        <!-- <img src="" alt="logo" width="100px" height="90px"> -->
     </header>
         <nav>
             <ul>
@@ -83,7 +89,7 @@
             <h3> Please enter the following information: </h3>
             <form action="https://year1.ccpdev.me/FormTest.php" method="post">
 
-                <label for="first_name" >First name:<spam class="required">*</spam></label>
+                <label for="first_name" >First name:<span class="required">*</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br>
 
                 <label for="last_name">Last name:  </label>
@@ -94,8 +100,8 @@
                 <br>
 
                 <label for="type">Contact type :</label>
-                <input type="radio" id="type" name="type" value="suggestion">Suggestion
-                <input type="radio" id="type" name="type" value="query">Query
+                <input type="radio" class="type" name="type" value="suggestion">Suggestion
+                <input type="radio" class="type" name="type" value="query">Query
                 <br>
 
                 <label for="message">Message : <span class="required">*</span></label>
