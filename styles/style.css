@@ -1,6 +1,8 @@
 header
 {
     height: 50px;
+    margin-top: 0px;
+
 }
 body
 {
@@ -79,11 +81,57 @@ details > p {
   width: auto;
   text-align: center;
 }
-#Leinster 
+.flex_container
 {
-    margin-left: 20px;
+    display: flex;
+    width: 100%;
 }
-#Munster
+.mainleft
 {
-    margin-left: 20px;
+    flex: 2;
+    min-width: 0;
+    height: 350px;
+}
+main 
+{
+    display: grid;
+    /* Column 1: Flexible space | Column 2: Fixed 250px for aside */
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    padding: 20px;
+}
+section {
+    grid-column: 1; /* Forces all sections into the first column */
+    padding: 20px;
+}
+.background
+{
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+}
+aside {
+    grid-column: 2;
+    grid-row: 1 / span 10; 
+    /* Spans multiple rows to stay at the top right */
+    position: sticky;
+    top: 20px;
+    background: #e2e2e2;
+    padding: 20px;
+    padding-top: 0px;
+    border: 1px solid #ccc;
+    max-height: 550px;
+    overflow: auto;
+
+}
+aside ul li
+{
+    list-style-type: square;
+}
+.bullet_points > li
+{
+    list-style-type: lower-alpha;
+}
+.style
+{
+    text-align: justify;
 }
