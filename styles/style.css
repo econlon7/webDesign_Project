@@ -1,13 +1,26 @@
 header
 {
-    height: 50px;
-    margin-top: 0px;
-
+    margin: 0px;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 1px;
+}
+h1
+{
+    margin-top: 10px;
+    padding: 30px;
 }
 body
 {
-    font-family: verdana;
+    font-family: sans-serif;
     background-color: #BCD3F2;
+    padding: 0px;
+    margin: 0px;
+}
+#logo
+{
+    float: left; 
+    margin-left: 1opx;
 }
 #active
 {
@@ -81,27 +94,13 @@ details > p {
   width: auto;
   text-align: center;
 }
-.flex_container
-{
-    display: flex;
-    width: 100%;
-}
-.mainleft
-{
-    flex: 2;
-    min-width: 0;
-    height: 350px;
-}
 main 
 {
-    display: grid;
-    /* Column 1: Flexible space | Column 2: Fixed 250px for aside */
-    grid-template-columns: 1fr 300px;
-    gap: 20px;
     padding: 20px;
 }
-section {
-    grid-column: 1; /* Forces all sections into the first column */
+section 
+{
+    grid-column: 1; /* sections located into column 1 */
     padding: 20px;
 }
 .background
@@ -117,9 +116,9 @@ aside {
     top: 20px;
     background: #e2e2e2;
     padding: 20px;
-    padding-top: 0px;
-    border: 1px solid #ccc;
-    max-height: 550px;
+    padding-top: 0;
+    border: 1px solid #000000;
+    max-height: 540px;
     overflow: auto;
 
 }
@@ -127,11 +126,27 @@ aside ul li
 {
     list-style-type: square;
 }
+.bullet_points
+{
+    padding-left: 5px;
+}
 .bullet_points > li
 {
-    list-style-type: lower-alpha;
+    padding-left: 1.5em;
+    background-image: url(../images/elionas-silhouette-1314467_1920.png);
+    background-size: 1em 1em;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+#split
+{
+    display: grid;
+    /* Column 1: Flexible space | Column 2: Fixed 250px for aside */
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    text-align: justify;
 }
 .style
 {
-    text-align: justify;
+    list-style-type: none;
 }
