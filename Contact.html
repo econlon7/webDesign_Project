@@ -6,29 +6,21 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Resources</title>
+    <link rel="icon" href="images/alexas_fotos-dog-2804950_1920.png">
     <link rel="stylesheet" href="styles/style.css">
     <style>
         body
         {
-            font-family: sans-serif;
             background-image: url(images/black_brown_and_white_dog-558x600.jpg);
-            margin: 10px;
             background-size: cover;
         }
         main
         {
-            margin: 15px 200px;
+            margin: 15px 250px;
             padding: 20px;
             border: solid black;
             background: white;
             min-height: 500px;
-        }
-        header
-        {
-            position: relative;
-            top: 10px;
-            font-style: italic;
-            text-align: center;
         }
         .required
         {
@@ -74,25 +66,27 @@
 </head>
 <body >
     <header>
-        <!-- <img src="" alt="logo" width="100px" height="90px"> -->
+        <img id="logo" src="images/alexas_fotos-dog-2804950_1920.png" alt="logo" width="100px" height="90px">
+        <h1> Dog resources and information </h1>
     </header>
         <nav>
             <ul>
                 <li> <a href="index.html"> Home </a></li>
                 <li> <a href="legislation.html"> Legislation </a></li>
                 <li> <a href="dogShelters.html"> Local dog shelters </a></li>
+                <li> <a href="events.html"> Events </a></li>
                 <li id="active"> <a href="Contact.html"> Contact </a></li>
             </ul>
         </nav>
     <main>
         <section>
             <h3> Please enter the following information: </h3>
-            <form action="https://year1.ccpdev.me/FormTest.php" method="post">
+            <form action="https://foo.com" method="get">
 
                 <label for="first_name" >First name:<span class="required">*</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br>
 
-                <label for="last_name">Last name:  </label>
+                <label for="last_name">Last name:</label>
                 <input type="text" name="last_name" id="last_name"><br>
 
                 <label for="email">Email:<span class="required">*</span></label>
