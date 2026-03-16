@@ -170,3 +170,20 @@ aside ul li
 {
     padding: 5px;
 }
+table
+{
+    width: 90%;
+    border: 2px black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+th, tr, td
+{
+    text-align: left;
+    border-style: none none solid solid;
+}
+th
+{
+    width: 200px;
+}
