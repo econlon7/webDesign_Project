@@ -23,6 +23,8 @@ body
 #logo
 {
     float: left; 
+    width: 100px; 
+    height: 90px;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -155,7 +157,7 @@ aside ul li
 #split
 {
     display: grid;
-    /* Column 1: Flexible space | Column 2: Fixed 250px for aside */
+    /* fr = flexible = section| 300px = aside */
     grid-template-columns: 1fr 300px;
     gap: 20px;
 }
@@ -207,4 +209,14 @@ th
 #video
 {
     text-align: center;
+}
+#video img
+{
+    border: 2px solid black;
+    width: 390px;
+    height: 260px;
+}
+.style ol li 
+{
+    margin-bottom: 10px;
 }
