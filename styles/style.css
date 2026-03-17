@@ -173,7 +173,6 @@ aside ul li
 table
 {
     width: 90%;
-    border: 2px black;
     border-collapse: collapse;
     font-size: 20px;
     margin: 20px;
@@ -181,7 +180,7 @@ table
 th, tr, td
 {
     text-align: left;
-    border-style: none none solid solid;
+    border-style: none none solid none;
 }
 th
 {
