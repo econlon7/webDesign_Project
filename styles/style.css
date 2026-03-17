@@ -73,6 +73,16 @@ footer p
     text-align: center;
     color: white;
 }
+footer ul
+{
+    text-align: center;
+}
+footer ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
 details summary 
 {
   padding: 2px;
