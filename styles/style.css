@@ -117,7 +117,7 @@ main
 }
 section 
 {
-    grid-column: 1; /* sections located into column 1 */
+    grid-column: 1; /* sections located in column 1 */
     padding: 20px;
 }
 .background
@@ -128,7 +128,6 @@ section
 aside {
     grid-column: 2;
     grid-row: 1 / span 10; 
-    /* Spans multiple rows to stay at the top right */
     position: sticky;
     top: 20px;
     background: #e2e2e2;
