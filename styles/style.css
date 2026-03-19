@@ -163,7 +163,7 @@ aside ul li
 #split_legislation
 {
     display: grid;
-    grid-template-columns: 1fr 600px;
+    grid-template-columns: 1fr 30%;
     gap: 20px;
 
 }
