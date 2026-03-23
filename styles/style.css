@@ -36,7 +36,7 @@ body
 }
 nav
 {
-    background-color: #CB8589;
+    background-color: #85b7cb;
     padding: 5px;
 
 }
@@ -62,7 +62,7 @@ nav ul li a
 }
 footer 
 {
-background-color: #CB8589;
+background-color: #85b7cb;
 /* to fix footer to bottom of webpage */
 position: static;
 margin-top: 10px;
