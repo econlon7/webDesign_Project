@@ -120,7 +120,7 @@ th
 }
 #video img
 {
-    border: 2px solid;
+    border: 2px solid blueviolet;
     width: 32%;
     height: 20%;
 }
@@ -209,8 +209,9 @@ aside ul li
 /* dog shelters page =========================================================================================*/
 .background
 {
-    border: 1px solid #ddd;
-    background: #f4f4f4;
+    border: 1px solid #524f4f;
+    background: #ffffff;
+    margin: 20px;
 }
 #split
 {
