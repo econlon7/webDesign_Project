@@ -209,7 +209,7 @@ aside ul li
 /* dog shelters page =========================================================================================*/
 .background
 {
-    border: 1px solid #524f4f;
+    border: 2px solid #524f4f;
     background: #ffffff;
     margin: 20px;
 }
@@ -225,7 +225,7 @@ aside ul li
 {
     padding-left: 5px;
 }
-.bullet_points  li
+.bullet_points li
 {
     padding-left: 1.5em;
     background-image: url(../images/elionas-silhouette-1314467_1920.png);
@@ -243,14 +243,13 @@ article
 {
     padding: 10px;
     margin: 10px;
-    border-bottom: 2px solid #000000;
 }
 .events_column
 {
     column-count: 2;
     column-gap: 50px;
     column-rule: 1px solid #5D6798;
-    border: 1px solid #524f4f;
+    border: 2px solid #524f4f;
     background: #ffffff;
     margin: 20px;
 
