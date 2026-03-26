@@ -5,7 +5,7 @@ header
     height: 180px;
     /* background-color: aliceblue; */
     padding: 1px;
-    background-image: url(../images/mrsmittens-dogs-6063000.jpg);
+    background-image: url(../images/mrsmittens-dogs-resize_1920x347.jpg);
     background-size: cover;
 }
 h1
@@ -90,6 +90,11 @@ main
 {
     padding: 20px;
     margin: 10px;
+}
+section 
+{
+    grid-column: 1; /* sections located in column 1 */
+    padding: 20px;
 }
 /* index page ========================================================================================*/
 table
@@ -182,14 +187,6 @@ details p
 
 
 /* legislation & dog shelter pages*/
-section 
-{
-    grid-column: 1; /* sections located in column 1 */
-    padding-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* padding: 20px; */
-}
 aside {
     grid-column: 2;
     grid-row: 1 / span 10; 
